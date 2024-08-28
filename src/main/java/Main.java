@@ -12,6 +12,7 @@ public class Main {
             Pagamento p2=new Pagamento(500,LocalDate.now());
             cr.addPagamento(p2);
             System.out.println(p1);
+            System.out.println("oiii");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
